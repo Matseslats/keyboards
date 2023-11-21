@@ -15,7 +15,7 @@ distanceEffort = 1 # at 2 distance penalty is squared
 doubleFingerEffort = 1
 doubleHandEffort = 1 
 
-fingerCPM = [223, 169, 225, 273, 343, 313, 259, 241] # how many clicks can you do in a minute
+fingerCPM = [324, 336, 330, 324, 378, 360, 366, 348] # how many clicks can you do in a minute: https://cps-check.com/keyboard-cps
 meanCPM = mean(fingerCPM)
 stdCPM = std(fingerCPM)
 zScoreCPM = -(fingerCPM .- meanCPM) ./ stdCPM # negative since higher is better
