@@ -9,3 +9,8 @@ To run, download both filtes to the same directory and execute the Julia code. I
 To train on your own custom dataset either point the "myBook.txt" somewhere else or just replace its contents.
 
 Good luck!
+
+# My Additions
+getFiles.py gets all the files in a specified directory (and all subdirectories excluding some select directory names) and reads the files. All the plaintext in these files is appended to code.txt. You can run the script on this file to analyze your documents and find your optimal keyboard.
+
+`allowed_extensions` on line 19 and `dirs` on line 30 in `getFiles.py` should be changed to cater for your programming habits/system files
